@@ -4,7 +4,7 @@ import scipy.stats as stats
 from .backend import market_prices
 
 
-def portfolio_volatility(df:pd.dataframe,vector_w:np.array) -> float:
+def portfolio_volatility(df:pd.DataFrame,vector_w:np.array) -> float:
 
     """
     Calculo de la volatilidad de un portafolio
